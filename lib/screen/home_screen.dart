@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
               context: context,
               isDismissible:true,
               builder: (_) => ScheduleBottomSheet(),
+            isScrollControlled: true,
           );
         },
         child: Icon(

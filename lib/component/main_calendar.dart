@@ -6,6 +6,7 @@ class MainCalendar extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return TableCalendar(
+        locale: 'ko_kr',
         focusedDay: DateTime.now(),
         firstDay: DateTime(1800,1,1),
         lastDay: DateTime(3000,1,1),
